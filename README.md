@@ -1,5 +1,10 @@
 # vietskills
 
+
+<p align="center">
+  <img src="assets/demo.gif" alt="validate an e-invoice, then compute 2026 payroll — in one terminal" width="760">
+</p>
+
 **Agent skills for Vietnamese business workflows.** A skill pack that
 teaches coding agents (Claude Code, Codex, Cursor, Gemini CLI…) how to do
 the paperwork every Vietnamese company does — correctly:
