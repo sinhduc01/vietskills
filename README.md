@@ -23,10 +23,13 @@ re-derive every time.
 
 ## Install
 
-Skills are folders of `SKILL.md` + optional scripts. Copy them into your
-agent's skill directory:
+Skills are folders of `SKILL.md` + optional scripts. Clone the repo and copy
+the skills you want into your agent's skill directory:
 
 ```bash
+git clone https://github.com/sinhduc01/vietskills.git
+cd vietskills
+
 # Claude Code (personal)
 cp -r skills/* ~/.claude/skills/
 # Claude Code (per project)
@@ -37,12 +40,6 @@ cp -r skills/* ~/.codex/skills/
 
 # Gemini CLI
 gemini skills install <this-repo> --path skills   # or copy manually
-```
-
-Or clone the repo once and point your agent at `skills/`:
-
-```bash
-git clone https://github.com/<you>/vietskills.git
 ```
 
 Each skill is self-contained: the `SKILL.md` tells the agent *when* to use
